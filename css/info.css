@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&amp;display=swap');
+
+
+
+
+
+
+
+.discord{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+  color: rgba(5, 102, 252, 0.829);
+}
+
+.tex-discord{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+  color: rgba(255, 255, 255, 0.829);
+}
+.youtube{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+  color: rgba(252, 35, 5, 0.829);
+}
+
+.tex-youtube{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+  color: rgba(255, 255, 255, 0.829);
+}
+
+.twitch{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+  color: rgba(211, 5, 252, 0.829);
+}
+
+.tex-twitch{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+  color: rgba(255, 255, 255, 0.829);
+}
+
+
+
+.cards{
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+}
+.cards h1{
+  font-size: 40px;
+  margin: 0 0 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.services{
+  display: flex;
+  align-items: center;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  background: #202020;
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  transition: all .3s ease;
+
+}
+.content .fab{
+  font-size: 70px;
+  margin: 16px 0;
+}
+.content > *{
+  flex: 1 1 100%;
+}
+
+.content h2{
+  font-size: 30px;
+  margin: 16px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.content p{
+  font-size: 17px;
+  font-family: 'Raleway',Raleway;
+}
+.content a{
+  margin: 22px 0;
+  background: #0154ef;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #0154ef;
+  padding: 15px 0;
+  border-radius: 10px;
+  transition: .3s ease;
+}
+.content a:hover{
+  border-radius: 4px;
+}
+@media (max-width: 900px) {
+  .services{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+
+footer {
+  color: white;
+  font-size: 20px;
+  background: #485563;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  height: 140px;
+  text-decoration: none;
+  padding-top: 5px;
+}

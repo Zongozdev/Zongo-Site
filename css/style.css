@@ -1,0 +1,56 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap";
+
+body{
+  background: url(https://cdn.discordapp.com/attachments/530812270855454750/1014324027860455534/stretched-1920-1080-987815.jpg) no-repeat;
+}
+
+
+nav.menu-nav ul li.btn{
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav.menu-nav ul li.btn a{
+  color: white;
+  background-color: purple;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav.menu-nav ul li.btn:hover a{
+  color: skyblue;
+  background-color: purple;
+  transition: 0.3s all;
+}
+
+p.bienvenue{
+	color: red;
+	font-size: 30px;
+	text-align: center;
+  margin-top: 100px;
+}
+p.trouver{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+}
+h1.Bienvenue{
+	color: #7dff33;
+	font-size: 30px;
+	text-align: center;
+  margin-top: 80px;
+}
+
+a.lien-twitch{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+a.lien-youtube{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 80px;
+}
+

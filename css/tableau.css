@@ -1,0 +1,30 @@
+table
+{
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 5px 50px rgb(0, 0, 0.15);
+    cursor: pointer;
+    margin: 100px auto;
+    border: 2px solid darkblue;
+}
+thead tr
+{
+    background-color: midnightblue;
+    color: white;
+    text-align: left;
+}
+th,td 
+{
+    padding: 15px 20px;
+    color: white;
+}
+tbody, tr, td, th
+{
+    border: 1px solid black;
+
+}
+tbody tr:nth-child(even)
+{
+    background-color: darkblue;
+} 
